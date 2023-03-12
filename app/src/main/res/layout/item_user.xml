@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_item_thanh_vien"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <ImageView
+            android:id="@+id/avatarUserItem"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:padding="8dp"
+            android:src="@drawable/bg_user_add" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="7"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/tvFullName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="khanh"
+                android:textColor="@color/white"
+                android:textSize="22dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvTaiKhoan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="10dp"
+                android:text="2222"
+                android:textColor="@color/white"
+                android:textSize="22dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imgEdit"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+
+                android:layout_gravity="center"
+                android:src="@drawable/ic_baseline_edit_24" />
+
+            <ImageView
+                android:id="@+id/imgDel"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/ic_baseline_delete_24" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

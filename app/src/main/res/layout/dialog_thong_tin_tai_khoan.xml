@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_user_information"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:src="@drawable/icon_person" />
+    <TextView
+        android:id="@+id/tvNameUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="5dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:text="Full Name"
+        android:textSize="18dp" />
+    <TextView
+        android:id="@+id/tvTaiKhoanUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:text="Tên đăng nhập"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/tvMatKhauUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:text="Mật khẩu"
+        android:textSize="22dp" />
+
+
+
+</LinearLayout>

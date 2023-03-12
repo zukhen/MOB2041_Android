@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/nav_Home" />
+        <item
+            android:id="@+id/nav_phieuMuon"
+            android:icon="@drawable/ic_baseline_insert_drive_file_24"
+            android:title="@string/nav_phieuMuon" />
+        <item
+            android:id="@+id/nav_loaiSach"
+            android:icon="@drawable/ic_baseline_menu_book_24"
+            android:title="@string/nav_loaiSach" />
+        <item
+            android:id="@+id/nav_sach"
+            android:icon="@drawable/ic_baseline_book_24"
+            android:title="@string/nav_sach" />
+        <item
+            android:id="@+id/nav_thanhVien"
+            android:icon="@drawable/ic_baseline_person_24"
+            android:title="@string/nav_thanhVien" />
+    </group>
+    <item android:title="Thống kê">
+        <menu>
+            <item
+                android:id="@+id/nav_thongKeSach"
+                android:icon="@drawable/ic_baseline_bar_chart_24"
+                android:title="@string/nav_thongKeSach" />
+            <item
+
+                android:id="@+id/nav_doanhThu"
+                android:icon="@drawable/ic_baseline_credit_card_24"
+                android:title="@string/nav_doanhThu" />
+        </menu>
+    </item>
+    <item android:title="Người dùng">
+        <menu>
+            <item
+                android:id="@+id/nav_addUser"
+                android:visible="false"
+                android:icon="@drawable/ic_baseline_person_add_alt_1_24"
+                android:title="@string/nav_addUser" />
+            <item
+                android:id="@+id/nav_doiMatKhau"
+                android:icon="@drawable/ic_baseline_lock_24"
+                android:title="@string/nav_doiMatKhau" />
+            <item
+                android:id="@+id/nav_dangXuat"
+
+                android:icon="@drawable/ic_baseline_login_24"
+                android:title="@string/nav_dangXuat" />
+        </menu>
+    </item>
+</menu>

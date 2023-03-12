@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Quản Lý Thư Viện</string>
+    <string name="nav_phieuMuon">Quản lý phiếu mượn</string>
+    <string name="nav_Home">Trang chủ</string>
+    <string name="nav_Notification">Thông báo</string>
+    <string name="nav_loaiSach">Quản lý loại sách</string>
+    <string name="nav_sach">Quản lý sách</string>
+    <string name="nav_thanhVien">Quản lý thành viên</string>
+    <string name="nav_gioithieu">Giới thiệu</string>
+    <string name="nav_thoat">Đăng xuất</string>
+    <string name="nav_thongKeSach">Top 10 sách mượn nhiều nhất</string>
+    <string name="nav_doanhThu">Doanh thu</string>
+    <string name="nav_doiMatKhau">Đổi mật khẩu</string>
+    <string name="nav_addUser">Thêm Người dùng</string>
+    <string name="nav_dangXuat">Đăng xuất</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="dieu_khoan">Vũ Viết Khanh\nMã sinh viên: PH28077</string>
+    <string name="update">Chức năng sắp được ra mắt</string>
+    <string name="logOut">Đăng xuất khỏi tài khoản của bạn?</string>
+
+</resources>
